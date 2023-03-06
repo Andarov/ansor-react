@@ -12,7 +12,9 @@ const Header = () => {
         <a href="index.html">
           <img src={logoH} alt="Logo" />
         </a>
-        <Navbar />
+        <div className="hidden lg:block">
+          <Navbar />
+        </div>
         <div className="flex items-center">
           <a className="inline-block bg-br-main-red py-1.5 px-3 rounded-lg font-bold text-base text-white lg:px-6 lg:py-3" href="#">
             <span className="hidden lg:block">Qabulga yozilish</span>
