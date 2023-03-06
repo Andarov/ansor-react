@@ -1,4 +1,3 @@
-import { navItems } from '../util/navItems'
 const Navbar = () => {
   return (
     <nav className='hidden lg:block'>
