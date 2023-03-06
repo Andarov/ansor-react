@@ -1,6 +1,7 @@
 import Header from "./component/Header"
 import Hero from "./component/Hero"
 import Services from "./component/Services"
+import Cta from "./component/Cta"
 
 const App = () => {
   return (
@@ -8,6 +9,7 @@ const App = () => {
       <Header />
       <Hero />
       <Services />
+      <Cta />
     </>
   )
 }
